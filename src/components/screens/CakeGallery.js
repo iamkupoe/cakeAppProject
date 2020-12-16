@@ -36,6 +36,27 @@ export default function CakeGalleryScreen({navigation}) {
             ingredients:"3 cups all purpose flour, 2 cups granulated sugar, 1 tsp ground cinnamon, 1 tsp baking soda, 1 tsp salt",
             photo: require("../../../assets/Hummingbird.jpg"),
           },
+
+          {
+            name: "Carrot Cake",
+            price: "GHC100.00",
+            ingredients:"2 cups granulated sugar, 1 1/2 cups vegetable oil, 4 fresh whole eggs, 2 cups pastry flour, 2 tsp baking soda",
+            photo: require("../../../assets/carrot.jpeg"),
+          },
+
+          {
+            name: "Birthday Cake",
+            price: "GHC120.00",
+            ingredients:"3 cups all purpose flour, 1 tablespoon baking powder, 1/2 teaspoon salt, 1 1/2 cups sugar",
+            photo: require("../../../assets/birthday.jpg"),
+          },
+
+          {
+            name: "Fruit Sangria Cake",
+            price: "GHC150.00",
+            ingredients:"6 large eggs, 1 cup (200g) granulate sugar, 1 tsp vanilla extract, 1 cup (125g) all purpose flour",
+            photo: require("../../../assets/fruit.jpg"),
+          },
       ]
     return (
         <View style={styles.container}>

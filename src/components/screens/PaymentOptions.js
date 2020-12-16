@@ -27,7 +27,7 @@ export default function PaymentOptionsScreen({navigation}) {
               <TouchableOpacity style={styles.opacity}>
                 <Text style={styles.opacityText}>Make Payment</Text>
               </TouchableOpacity>
-          </View>
+          </View> 
 
           <View style={styles.bottomText}>
 
